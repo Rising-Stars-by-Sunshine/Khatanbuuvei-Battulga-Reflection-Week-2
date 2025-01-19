@@ -1,6 +1,11 @@
-This dataset, titled SciData22: Stereo Scientific Text Reuse, is hosted on GitHub and provides a comprehensive resource for studying text reuse in scientific literature. It contains 91 million instances of text reuse, including minimal to extensive verbatim overlaps, extracted from 4.2 million open-access publications. The dataset is ideal for exploring patterns of scientific writing, plagiarism detection, and semantic text analysis.
+This dataset, titled SciData22: Stereo Scientific Text Reuse, is hosted on GitHub and provides a comprehensive resource 
+for studying text reuse in scientific literature. It contains 91 million instances of text reuse, including minimal to 
+extensive verbatim overlaps, extracted from 4.2 million open-access publications. The dataset is ideal for exploring 
+patterns of scientific writing, plagiarism detection, and semantic text analysis.
 
-The data was compiled by the Webis research group and is presented in a structured format for easy use in machine learning and computational linguistics applications. It is accompanied by detailed metadata, including publication IDs, text reuse percentages, and timestamps.
+The data was compiled by the Webis research group and is presented in a structured format for easy use in machine learning 
+and computational linguistics applications. It is accompanied by detailed metadata, including publication IDs, text reuse 
+percentages, and timestamps.
 
 # Data Dictionary
 
