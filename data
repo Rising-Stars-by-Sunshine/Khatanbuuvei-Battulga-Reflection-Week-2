@@ -1,1 +1,22 @@
+This dataset, titled SciData22: Stereo Scientific Text Reuse, is hosted on GitHub and provides a comprehensive resource for studying text reuse in scientific literature. It contains 91 million instances of text reuse, including minimal to extensive verbatim overlaps, extracted from 4.2 million open-access publications. The dataset is ideal for exploring patterns of scientific writing, plagiarism detection, and semantic text analysis.
+
+The data was compiled by the Webis research group and is presented in a structured format for easy use in machine learning and computational linguistics applications. It is accompanied by detailed metadata, including publication IDs, text reuse percentages, and timestamps.
+
+# Data Dictionary
+
+| Variable Name         | Data Type   | Description                                                                 |
+|-----------------------|-------------|-----------------------------------------------------------------------------|
+| `source_id`           | String      | Unique identifier for the source publication.                              |
+| `target_id`           | String      | Unique identifier for the target publication involved in the reuse instance.|
+| `source_text`         | Text        | Text passage extracted from the source publication.                        |
+| `target_text`         | Text        | Text passage extracted from the target publication.                        |
+| `similarity_score`    | Float       | Percentage of text similarity between the source and target passages.      |
+| `reuse_type`          | String      | Type of text reuse (e.g., verbatim, paraphrased, minimal overlap).         |
+| `publication_year`    | Integer     | Year of publication for both the source and target documents.              |
+| `source_metadata`     | JSON        | Metadata about the source publication (e.g., authors, journal, DOI).       |
+| `target_metadata`     | JSON        | Metadata about the target publication (e.g., authors, journal, DOI).       |
+| `context_category`    | String      | Contextual category of the reuse instance (e.g., methods, results).        |
+| `citation_context`    | Boolean     | Indicates whether the reuse occurs in a citation context (True/False).     |
+| `timestamp`           | DateTime    | Timestamp indicating when the instance was recorded.                       |
+
 
